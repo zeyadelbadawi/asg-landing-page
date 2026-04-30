@@ -14,11 +14,11 @@ const queryClient = new QueryClient();
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Index />} />
-    {/* <Route path="/blog/*" element={<BlogRoutes />} /> */}
     <Route path="/auth/callback" element={<AuthCallback />} />
     <Route path="/auth/error" element={<AuthError />} />
-    {/* MODULE_ROUTES_START */}
-    {/* MODULE_ROUTES_END */}
+
+    {/* fallback for any wrong page */}
+    <Route path="*" element={<Index />} />
   </Routes>
 );
 
