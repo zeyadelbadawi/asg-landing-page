@@ -480,7 +480,7 @@ export default function HeroSection() {
             <div className="absolute -inset-1 bg-gradient-to-r from-[#fd6909] to-[#FF8A3D] rounded-full blur-lg opacity-40 group-hover:opacity-60 transition-opacity" />
           </a>
           <a
-            href="#services"
+            href="https://www.arab-security.com/solutions"
             className="px-10 py-4 border border-white/15 text-white/90 font-semibold rounded-full hover:border-white/30 hover:text-white transition-all !bg-transparent"
           >
             {heroContent.secondaryCta}
