@@ -256,7 +256,7 @@ export interface Stat {
 export const stats: Stat[] = [
   { value: 15, suffix: '+', label: 'Years of Experience' },
   { value: 500, suffix: '+', label: 'Projects Delivered' },
-  { value: 8, suffix: '+', label: 'Countries Served' },
+  { value: 10, suffix: '+', label: 'Business Unites' },
   { value: 300, suffix: '+', label: 'Team Members' },
 ];
 
