@@ -1,0 +1,58 @@
+{
+  "status": "success",
+  "results": [
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmw67yaafla/hero-neural-network-security.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmw67yaafla/hero-neural-network-security.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmw67yaafla/hero-neural-network-security.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Abstract futuristic neural network visualization with glowing teal and orange nodes connected by light beams on a deep dark navy blue background, representing AI-powered security surveillance and smart city technology, cinematic wide angle, digital art style with depth of field",
+      "style": "3d",
+      "filename": "hero-neural-network-security.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbsqaafma/project-government-command-center.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbsqaafma/project-government-command-center.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbsqaafma/project-government-command-center.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Modern government security command center with multiple large display screens showing surveillance feeds and data analytics dashboards, blue ambient lighting, operators at workstations, high-tech control room atmosphere, professional photography",
+      "style": "photorealistic",
+      "filename": "project-government-command-center.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxdiaaafmq/project-smart-city-surveillance.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxdiaaafmq/project-smart-city-surveillance.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxdiaaafmq/project-smart-city-surveillance.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Aerial view of a smart city at night with illuminated buildings, connected IoT sensors visualized as glowing dots, surveillance cameras on poles, modern urban infrastructure with data streams overlay, futuristic cityscape",
+      "style": "photorealistic",
+      "filename": "project-smart-city-surveillance.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbhaaaflq/project-corporate-enterprise-security.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbhaaaflq/project-corporate-enterprise-security.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmxbhaaaflq/project-corporate-enterprise-security.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Modern corporate office building lobby with sleek access control turnstiles, security cameras, biometric scanners, glass walls, premium enterprise security installation, clean professional architecture photography",
+      "style": "photorealistic",
+      "filename": "project-corporate-enterprise-security.jpg"
+    },
+    {
+      "status": "success",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmx4oyaafla/project-industrial-facility-monitoring.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmx4oyaafla/project-industrial-facility-monitoring.png",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/967905/2026-04-28/npmx4oyaafla/project-industrial-facility-monitoring.png",
+      "message": "Image generated successfully.\n\nNote: The image is on CDN and will be displayed automatically. Just describe what you created briefly, no need to mention filenames or URLs.",
+      "description": "Large industrial facility with advanced CCTV surveillance system, perimeter security fencing with sensors, monitoring equipment, warehouse interior with security infrastructure, professional industrial photography",
+      "style": "photorealistic",
+      "filename": "project-industrial-facility-monitoring.jpg"
+    }
+  ],
+  "success_count": 5,
+  "failed_count": 0,
+  "message": "Generated 5/5 images"
+}
