@@ -54,11 +54,18 @@ export default function LeadFormSection() {
       });
 
       const text = await res.text();
-      const data = text ? JSON.parse(text) : {};
+
+      let data: any = {};
+      try {
+        data = text ? JSON.parse(text) : {};
+      } catch {
+        data = { error: text || 'Server returned non-JSON error' };
+      }
       
       if (!res.ok) {
         throw new Error(data.error || 'Failed to submit form');
       }
+      
 
       setIsSuccess(true);
 
