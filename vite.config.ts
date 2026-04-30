@@ -4,7 +4,6 @@ import path from 'path';
 import { viteSourceLocator } from '@metagptx/vite-plugin-source-locator';
 import { atoms } from '@metagptx/web-sdk/plugins';
 import { vitePrerenderPlugin } from 'vite-prerender-plugin';
-import Sitemap from 'vite-plugin-sitemap';
 import { getBlogRoutes } from './prerender/blog-routes.js';
 import { getSitemapLastmod } from './prerender/blog-sitemap.js';
 
@@ -34,12 +33,7 @@ export default defineConfig(({ command }) => {
       }),
       react(),
       atoms(),
-      Sitemap({
-        hostname: 'https://atoms.template.com',
-        lastmod: getSitemapLastmod(),
-        readable: true,
-        generateRobotsTxt: true,
-      }),
+
       ...(blogPrerenderRoutes.length > 0
         ? vitePrerenderPlugin({
             renderTarget: '#root',
