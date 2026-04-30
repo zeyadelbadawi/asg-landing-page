@@ -292,24 +292,22 @@ export default function LeadFormSection() {
                   Solution
                 </label>
                 <select
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  className={inputClass}
-                >
-                  <option value="">Select a Solution</option>
-    <option value="integrated-security">Integrated Security</option>
-    <option value="access-control-id">Access Control & ID</option>
-    <option value="physical-security">Physical Security</option>
-    <option value="parking-traffic">Parking & Traffic</option>
-    <option value="fire-life-safety">Fire & Life Safety</option>
-    <option value="light-current-elv">Light Current & ELV</option>
-    <option value="smart-solutions">Smart Solutions</option>
-    <option value="x-ray-inspection">X-Ray & Inspection</option>
-    <option value="audio-visual">Audio Visual</option>
-                  ))}
-                </select>
-              </div>
+  name="serviceSolution"
+  value={formData.serviceSolution}
+  onChange={handleChange}
+  className={inputClass}
+>
+  <option value="">Select a Solution</option>
+  <option value="Integrated Security">Integrated Security</option>
+  <option value="Access Control & ID">Access Control & ID</option>
+  <option value="Physical Security">Physical Security</option>
+  <option value="Parking & Traffic">Parking & Traffic</option>
+  <option value="Fire & Life Safety">Fire & Life Safety</option>
+  <option value="Light Current & ELV">Light Current & ELV</option>
+  <option value="Smart Solutions">Smart Solutions</option>
+  <option value="X-Ray & Inspection">X-Ray & Inspection</option>
+  <option value="Audio Visual">Audio Visual</option>
+</select>              </div>
 
               <div>
                 <label className="block text-xs font-semibold text-[#1e2455]/50 mb-2 uppercase tracking-wider">
